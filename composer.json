@@ -1,0 +1,24 @@
+{
+    "name": "sergioliberati/attributes-test",
+    "description": "Testing Enums implementation",
+    "authors": [
+        {
+            "name": "Sergio Liberati",
+            "email": "sergiolibe@gmail.com"
+        }
+    ],
+    "require": {},
+"config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Enums\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Enums\\": "tests"
+    }
+  }
+}
